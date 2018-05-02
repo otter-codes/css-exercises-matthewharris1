@@ -1,7 +1,7 @@
 /* General styles */
 html {
   font-family: 'Helvetica neue', Arial, 'sans serif';
-  font-size: -16px;
+  font-size: 19px;
 }
 
 body {
@@ -23,9 +23,9 @@ pl,i {
 }
 
 /* header and footer */
-header, footer {
-  background-colour: #7cb342;
-  height: 10em
+header {
+  background-color: #7cb342;
+  height: 10em;
   padding: 2em;
 }
 
@@ -35,13 +35,13 @@ h1, footer p {
 }
 
 footer li {
-  float: left
-  list-style-type: none;
-  padding:0.5em;
+  float: left;
+  list-style-type: ul;
+  padding:1.5em;
 }
 
 footer a {
-  color: #fff;
+  color: #7cb342;
 }
 
 h1 {
@@ -55,10 +55,10 @@ main {
 }
 
 main p, main li {
-  line-height: 2;
+  line-height: 1;
 }
 
 img {
-  float: left
+  float: left;
   margin: 1.2em 2em;
 }
